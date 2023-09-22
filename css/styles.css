@@ -555,6 +555,7 @@ address {
 
 .modal-button-icon {
   margin-left: 16px;
+  color: #ffffff;
 }
 
 .backdrop {
@@ -567,6 +568,15 @@ address {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(46, 47, 66, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal-window {
@@ -609,7 +619,7 @@ address {
   fill: #ffffff;
 }
 
-.icon-close {
+.close-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -651,7 +661,7 @@ address {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-name:focus {
+.modal-name-input:focus {
   border-color: #4d5ae5;
 }
 
