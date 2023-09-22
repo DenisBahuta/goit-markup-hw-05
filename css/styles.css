@@ -712,12 +712,9 @@ address {
   fill: transparent;
 }
 
-.modal-chekbox-input:checked {
+.modal-chekbox-input:checked + .modal-chekbox-label .modal-chekbox-chek {
   background-color: #404bbf;
   border: none;
-}
-
-.modal-chekbox-input:checked + .modal-chekbox-label .modal-chekbox-chek {
   fill: #f4f4fd;
 }
 
