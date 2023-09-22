@@ -489,12 +489,11 @@
             <use href="./images/iconss.svg#icon-close-black"></use>
           </svg>
         </button>
-
         <p class="modal-window-paragraf">
           Leave your contacts and we will call you back
         </p>
         <form>
-          <div class="modal-name">
+          <div class="modal-field">
             <label class="modal-label" for="user-name">Name</label>
             <div class="name-form">
               <input
@@ -508,7 +507,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-name">
+          <div class="modal-field">
             <label class="modal-label" for="user-phone">Phone</label>
             <div class="name-form">
               <input
@@ -522,7 +521,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-name">
+          <div class="modal-field">
             <label class="modal-label" for="user-email">Email</label>
             <div class="name-form">
               <input
@@ -535,6 +534,32 @@
                 <use href="./images/iconss.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
+          <div class="modal-comment">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="area"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-chekbox">
+            <input
+              class="modal-chekbox-input visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="modal-chekbox-label" for="user-privacy"
+              >I accept the terms and conditions of the Privacy Policy
+              <span class="modal-chekbox-chek">
+                <svg class="modal-chekbox-icon" width="10" height="8">
+                  <use href="./images/iconss.svg#icon-vector"></use>
+                </svg>
+              </span>
+            </label>
           </div>
         </form>
       </div>
