@@ -577,16 +577,10 @@ address {
   pointer-events: none;
 }
 
-.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .modal-window {
@@ -677,6 +671,7 @@ address {
 
 .modal-name-input:focus {
   border-color: #4d5ae5;
+  outline: none;
 }
 
 .icon-name {
