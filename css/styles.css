@@ -701,7 +701,7 @@ address {
   border-color: #4d5ae5;
 }
 
-.modal-chekbox {
+.modal-chekbox-wrap {
   margin-bottom: 24px;
 }
 
@@ -736,7 +736,7 @@ address {
   color: #4d5ae5;
 }
 
-.modal-button-send {
+.modal-submit-button {
   display: block;
   min-width: 169px;
   height: 56px;
